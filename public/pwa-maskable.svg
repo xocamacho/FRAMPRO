@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Fondo sólido (maskable — zona segura es el 80% central) -->
+  <rect width="512" height="512" fill="#16a34a"/>
+  <!-- Todo el contenido dentro del círculo de 80% (204px de radio desde centro) -->
+  <!-- Escala reducida al 70% centrada -->
+  <g transform="translate(256,256) scale(0.68) translate(-256,-256)">
+    <!-- Cuerpo vaca -->
+    <ellipse cx="256" cy="300" rx="122" ry="90" fill="white"/>
+    <!-- Cabeza -->
+    <ellipse cx="256" cy="192" rx="74" ry="64" fill="white"/>
+    <!-- Orejas -->
+    <ellipse cx="182" cy="166" rx="28" ry="20" fill="white"/>
+    <ellipse cx="330" cy="166" rx="28" ry="20" fill="white"/>
+    <ellipse cx="182" cy="166" rx="16" ry="12" fill="#f9a8d4"/>
+    <ellipse cx="330" cy="166" rx="16" ry="12" fill="#f9a8d4"/>
+    <!-- Manchas -->
+    <ellipse cx="222" cy="285" rx="36" ry="26" fill="#16a34a" opacity="0.22"/>
+    <ellipse cx="292" cy="315" rx="28" ry="22" fill="#16a34a" opacity="0.22"/>
+    <!-- Ojos -->
+    <circle cx="236" cy="182" r="10" fill="#1f2937"/>
+    <circle cx="276" cy="182" r="10" fill="#1f2937"/>
+    <circle cx="238" cy="180" r="4" fill="white"/>
+    <circle cx="278" cy="180" r="4" fill="white"/>
+    <!-- Nariz -->
+    <ellipse cx="256" cy="218" rx="28" ry="18" fill="#fda4af"/>
+    <circle cx="245" cy="218" r="6" fill="#9f1239"/>
+    <circle cx="267" cy="218" r="6" fill="#9f1239"/>
+    <!-- Patas -->
+    <rect x="186" y="376" width="38" height="64" rx="19" fill="white"/>
+    <rect x="238" y="376" width="38" height="64" rx="19" fill="white"/>
+    <rect x="290" y="376" width="38" height="64" rx="19" fill="white"/>
+  </g>
+</svg>
