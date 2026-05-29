@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="white"/>
+  <defs>
+    <linearGradient id="gX2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d9e2d"/>
+      <stop offset="100%" style="stop-color:#6dd62a"/>
+    </linearGradient>
+    <linearGradient id="gText" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a5c1a"/>
+      <stop offset="100%" style="stop-color:#1e7a1e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sol -->
+  <circle cx="680" cy="80" r="52" fill="#6dd62a" opacity="0.9"/>
+  <circle cx="680" cy="80" r="38" fill="#8fe840"/>
+  <!-- Rayos sol -->
+  <line x1="680" y1="14" x2="680" y2="2" stroke="#6dd62a" stroke-width="5" stroke-linecap="round"/>
+  <line x1="726" y1="34" x2="734" y2="26" stroke="#6dd62a" stroke-width="5" stroke-linecap="round"/>
+  <line x1="746" y1="80" x2="758" y2="80" stroke="#6dd62a" stroke-width="5" stroke-linecap="round"/>
+  <line x1="726" y1="126" x2="734" y2="134" stroke="#6dd62a" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Arco curva superior -->
+  <path d="M80 160 Q400 60 720 130" stroke="#6dd62a" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Barn / granero -->
+  <polygon points="90,185 130,155 170,185" fill="#1a5c1a"/>
+  <rect x="95" y="185" width="70" height="50" fill="#1e7a1e"/>
+  <rect x="117" y="200" width="26" height="35" fill="#6dd62a" opacity="0.4"/>
+  <line x1="130" y1="200" x2="130" y2="235" stroke="#1a5c1a" stroke-width="2"/>
+
+  <!-- Árbol -->
+  <rect x="195" y="200" width="10" height="40" fill="#1a5c1a"/>
+  <ellipse cx="200" cy="185" rx="28" ry="35" fill="#1e7a1e"/>
+  <ellipse cx="200" cy="175" rx="20" ry="26" fill="#2d9e2d"/>
+
+  <!-- Aves en vuelo -->
+  <path d="M310 100 Q318 95 326 100" stroke="#1a5c1a" stroke-width="3" fill="none"/>
+  <path d="M330 90 Q338 85 346 90" stroke="#1a5c1a" stroke-width="3" fill="none"/>
+  <path d="M350 105 Q358 100 366 105" stroke="#1a5c1a" stroke-width="3" fill="none"/>
+
+  <!-- Vaca grande -->
+  <ellipse cx="430" cy="195" rx="70" ry="45" fill="#1a5c1a"/>
+  <ellipse cx="350" cy="190" rx="38" ry="32" fill="#1a5c1a"/>
+  <!-- cabeza vaca -->
+  <ellipse cx="295" cy="188" rx="25" ry="22" fill="#1e7a1e"/>
+  <!-- cuernos -->
+  <path d="M282 170 Q275 155 268 165" stroke="#1a5c1a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M295 168 Q295 153 302 162" stroke="#1a5c1a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- patas vaca grande -->
+  <rect x="375" y="232" width="16" height="35" rx="8" fill="#1a5c1a"/>
+  <rect x="400" y="232" width="16" height="35" rx="8" fill="#1a5c1a"/>
+  <rect x="455" y="232" width="16" height="35" rx="8" fill="#1a5c1a"/>
+  <rect x="480" y="232" width="16" height="35" rx="8" fill="#1a5c1a"/>
+  <!-- cola -->
+  <path d="M498 185 Q530 165 520 195" stroke="#1a5c1a" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+  <!-- Ternero pequeño -->
+  <ellipse cx="570" cy="210" rx="45" ry="30" fill="#1e7a1e"/>
+  <ellipse cx="540" cy="205" rx="24" ry="20" fill="#1e7a1e"/>
+  <rect x="548" y="232" width="11" height="25" rx="5" fill="#1a5c1a"/>
+  <rect x="565" y="232" width="11" height="25" rx="5" fill="#1a5c1a"/>
+  <rect x="585" y="232" width="11" height="25" rx="5" fill="#1a5c1a"/>
+
+  <!-- Colina / tierra -->
+  <path d="M60 245 Q400 210 740 245 L740 270 L60 270 Z" fill="#1e7a1e" opacity="0.4"/>
+
+  <!-- Cercas -->
+  <line x1="230" y1="218" x2="230" y2="255" stroke="#1a5c1a" stroke-width="3"/>
+  <line x1="250" y1="218" x2="250" y2="255" stroke="#1a5c1a" stroke-width="3"/>
+  <line x1="270" y1="220" x2="270" y2="255" stroke="#1a5c1a" stroke-width="3"/>
+  <line x1="228" y1="228" x2="272" y2="228" stroke="#1a5c1a" stroke-width="2"/>
+  <line x1="228" y1="242" x2="272" y2="242" stroke="#1a5c1a" stroke-width="2"/>
+
+  <!-- Campos rayas -->
+  <path d="M620 225 Q680 215 740 225" stroke="#2d9e2d" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M630 238 Q685 228 740 238" stroke="#2d9e2d" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M640 250 Q690 240 740 250" stroke="#2d9e2d" stroke-width="3" fill="none" opacity="0.4"/>
+
+  <!-- Swoosh inferior -->
+  <path d="M50 310 Q300 280 760 305" stroke="#6dd62a" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M50 325 Q300 295 760 322" stroke="#6dd62a" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Texto "Finca" -->
+  <text x="48" y="375" font-family="Arial Black, sans-serif" font-weight="900" font-size="115" fill="url(#gText)" font-style="italic" letter-spacing="-2">Finca</text>
+
+  <!-- Texto "X" -->
+  <text x="355" y="375" font-family="Arial Black, sans-serif" font-weight="900" font-size="115" fill="url(#gX2)" font-style="italic">X</text>
+
+  <!-- Texto "pro" -->
+  <text x="440" y="375" font-family="Arial Black, sans-serif" font-weight="900" font-size="115" fill="url(#gX2)" font-style="italic">pro</text>
+
+  <!-- Pixel dots -->
+  <rect x="710" y="330" width="20" height="20" fill="#6dd62a" rx="2"/>
+  <rect x="736" y="330" width="14" height="14" fill="#6dd62a" rx="2"/>
+  <rect x="710" y="356" width="14" height="14" fill="#6dd62a" rx="2"/>
+  <rect x="730" y="352" width="9" height="9" fill="#6dd62a" rx="2"/>
+  <rect x="745" y="342" width="11" height="11" fill="#6dd62a" rx="2" opacity="0.7"/>
+  <rect x="752" y="328" width="16" height="16" fill="#6dd62a" rx="2"/>
+</svg>

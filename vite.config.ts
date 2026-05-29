@@ -12,8 +12,8 @@ export default defineConfig({
       registerType: 'prompt',          // muestra prompt antes de actualizar
       includeAssets: ['favicon.svg', 'pwa-192.svg', 'pwa-512.svg', 'pwa-maskable.svg'],
       manifest: {
-        name: 'FincaPro — Gestión Ganadera',
-        short_name: 'FincaPro',
+        name: 'FincaXpro — Gestión Ganadera',
+        short_name: 'FincaXpro',
         description: 'Gestión integral de fincas ganaderas: animales, potreros, salud, reproducción y más.',
         theme_color: '#16a34a',
         background_color: '#f9fafb',

@@ -71,7 +71,7 @@ export function Sidebar() {
               <Leaf size={16} className="text-white" />
             </div>
             <div className="min-w-0">
-              <p className="font-semibold text-sm leading-tight">FincaPro</p>
+              <p className="font-semibold text-sm leading-tight">FincaXpro</p>
               <p className="text-xs text-gray-400 truncate max-w-[140px]">{finca?.nombre ?? 'Mi Finca'}</p>
             </div>
           </div>
