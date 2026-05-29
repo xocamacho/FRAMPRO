@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useAuth } from '@/hooks/useAuth'
 import { Button } from '@/components/ui/Button'
 import { Input } from '@/components/ui/Input'
-import { Mail, Lock } from 'lucide-react'
+import { Mail, Lock, Leaf } from 'lucide-react'
 
 export function Login() {
   const { iniciarSesion } = useAuth()
@@ -36,11 +36,10 @@ export function Login() {
       <div className="bg-white rounded-2xl shadow-xl w-full max-w-md p-8">
         {/* Logo */}
         <div className="flex flex-col items-center mb-8">
-          <img
-            src="/logo-fincaxpro.png"
-            alt="FincaXpro"
-            className="h-32 w-auto mb-2 drop-shadow-sm"
-          />
+          <div className="w-16 h-16 bg-green-600 rounded-2xl flex items-center justify-center mb-3 shadow-lg">
+            <Leaf size={32} className="text-white" />
+          </div>
+          <h1 className="text-2xl font-bold text-gray-900">FincaXpro</h1>
           <p className="text-sm text-gray-500 mt-1">Gestión Ganadera Inteligente</p>
         </div>
 
