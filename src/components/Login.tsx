@@ -45,7 +45,7 @@ export function Login() {
         />
 
         {/* GRID principal: izquierda + derecha */}
-        <div className="relative z-10 h-full flex items-center justify-between gap-6 px-12 pr-48 py-6">
+        <div className="relative z-10 h-full flex items-center justify-center lg:justify-between gap-6 px-4 sm:px-6 lg:px-12 lg:pr-48 py-6">
 
           {/* ══ COLUMNA IZQUIERDA ══ */}
           <div className="hidden lg:flex flex-col max-w-[430px] w-full pl-20">
@@ -116,12 +116,12 @@ export function Login() {
 
           {/* ══ CARD DERECHA ══ */}
           <div
-            className="shrink-0 rounded-2xl flex flex-col gap-4"
+            className="w-full lg:w-[420px] lg:shrink-0 rounded-2xl flex flex-col gap-4"
             style={{
-              width: '420px',
+              maxWidth: '420px',
               backgroundColor: 'rgba(255,255,255,0.97)',
               boxShadow: '0 4px 32px rgba(0,0,0,0.13), 0 1px 8px rgba(0,0,0,0.07)',
-              padding: '36px 36px',
+              padding: '32px 28px',
             }}
           >
             {/* Logo móvil */}

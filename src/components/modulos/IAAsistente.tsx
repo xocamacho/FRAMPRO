@@ -51,7 +51,7 @@ export function IAAsistente() {
       const msg = error instanceof Error ? error.message : 'Error desconocido'
       setMensajes((prev) => [
         ...prev,
-        { rol: 'asistente', contenido: `❌ Error: ${msg}\n\n💡 Verifica:\n1. ¿El backend corre en localhost:3001?\n2. ¿Tu API key es válida?\n3. ¿Hay dos procesos en "npm run dev"?`, hora },
+        { rol: 'asistente', contenido: `❌ Error: ${msg}\n\n💡 Verifica tu conexión a internet e intenta de nuevo.`, hora },
       ])
     } finally {
       setCargando(false)

@@ -185,7 +185,7 @@ Reglas:
     } catch (e: any) {
       const msg = e?.message || 'Error desconocido'
       if (msg.includes('conectar') || msg.includes('fetch') || msg.includes('localhost')) {
-        setIaError('No se pudo conectar con la IA. Verifica que el backend esté corriendo en localhost:3001.')
+        setIaError('No se pudo conectar con la IA. Verifica tu conexión a internet.')
       } else if (msg.includes('JSON') || msg.includes('parse') || msg.includes('Unexpected')) {
         setIaError('La IA respondió en un formato inesperado. Intenta de nuevo.')
       } else {
