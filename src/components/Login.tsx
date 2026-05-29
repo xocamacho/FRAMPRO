@@ -37,7 +37,7 @@ export function Login() {
         {/* Logo */}
         <div className="flex flex-col items-center mb-8">
           <img
-            src="/logo-fincaxpro.svg"
+            src="/logo-fincaxpro.png"
             alt="FincaXpro"
             className="h-32 w-auto mb-2 drop-shadow-sm"
           />
