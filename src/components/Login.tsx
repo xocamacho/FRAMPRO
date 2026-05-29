@@ -77,11 +77,6 @@ export function Login() {
           </Button>
         </form>
 
-        {import.meta.env.DEV && (
-          <div className="mt-6 p-4 bg-amber-50 border border-amber-200 rounded-lg text-sm text-amber-800">
-            <strong>Modo desarrollo:</strong> Configura tus API keys en el archivo <code className="bg-amber-100 px-1 rounded">.env</code> para usar todas las funciones.
-          </div>
-        )}
       </div>
     </div>
   )
