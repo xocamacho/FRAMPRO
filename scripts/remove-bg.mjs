@@ -1,7 +1,7 @@
 import { Jimp } from 'jimp'
 
 const img = await Jimp.read('public/logo-fincaxpro.png')
-const threshold = 235
+const threshold = 245
 
 for (let y = 0; y < img.bitmap.height; y++) {
   for (let x = 0; x < img.bitmap.width; x++) {

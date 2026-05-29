@@ -1,7 +1,6 @@
-// En dev usa el proxy de Vite (localhost:3001), en producción usa Netlify Function
 const GROQ_URL = import.meta.env.DEV
   ? 'http://localhost:3001/api/groq/chat/completions'
-  : '/.netlify/functions/groq'
+  : '/api/groq'
 
 export async function consultarIA(pregunta: string, contexto?: object): Promise<string> {
   const contextoStr = contexto ? `\nCONTEXTO:\n${JSON.stringify(contexto, null, 2)}` : ''
