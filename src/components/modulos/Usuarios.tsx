@@ -189,7 +189,8 @@ export function Usuarios() {
         let usóBackend = false
 
         try {
-          const resp = await fetch('http://localhost:3001/api/usuarios/crear', {
+          const backendBase = import.meta.env.DEV ? 'http://localhost:3001' : ''
+          const resp = await fetch(`${backendBase}/.netlify/functions/usuarios-crear`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -281,7 +282,8 @@ export function Usuarios() {
     setCambiandoPassword(true)
 
     try {
-      const resp = await fetch('http://localhost:3001/api/usuarios/cambiar-password', {
+      const backendBase2 = import.meta.env.DEV ? 'http://localhost:3001' : ''
+      const resp = await fetch(`${backendBase2}/.netlify/functions/usuarios-cambiar-password`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ usuario_id: modalPassword.id, nueva_password: nuevaPassword }),
