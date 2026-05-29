@@ -8,6 +8,10 @@ export interface Usuario {
   permisos?: Record<string, any>
   activo?: boolean
   fecha_creacion?: string
+  cedula?: string | null
+  telefono?: string | null
+  foto_url?: string | null
+  perfil_completo?: boolean
 }
 
 // Finca

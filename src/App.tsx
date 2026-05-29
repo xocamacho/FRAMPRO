@@ -5,6 +5,7 @@ import { useAuthStore } from '@/store/authStore'
 import { Login } from '@/components/Login'
 import { AppLayout } from '@/components/AppLayout'
 import { InstallPWA } from '@/components/InstallPWA'
+import { CompletarPerfil } from '@/components/CompletarPerfil'
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -16,7 +17,7 @@ const queryClient = new QueryClient({
 })
 
 function AuthGate() {
-  const { sesionIniciada, cerrarSesion } = useAuthStore()
+  const { sesionIniciada, cerrarSesion, usuario } = useAuthStore()
   const [cargando, setCargando] = useState(true)
 
   useEffect(() => {
@@ -47,13 +48,15 @@ function AuthGate() {
             <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
             <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
           </svg>
-          <p className="text-sm text-gray-500">Iniciando FincaPro...</p>
+          <p className="text-sm text-gray-500">Iniciando FincaXpro...</p>
         </div>
       </div>
     )
   }
 
-  return sesionIniciada ? <AppLayout /> : <Login />
+  if (!sesionIniciada) return <Login />
+  if (usuario?.perfil_completo === false) return <CompletarPerfil />
+  return <AppLayout />
 }
 
 export default function App() {
